@@ -1,1 +1,63 @@
 /* Start coding here */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, pink 0%, rgb(156,127,198) 50%, rgb(66,145,226) 100%);
+    height: 100vh;
+    width: auto;
+}
+section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color:  rgba(245, 237, 227,0.2);
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+
+}
+.dog {
+    height: 450px;
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px gray;
+}
+.head p {
+    margin: 20px 0;
+}
+.cont p{
+    padding: 5px 0;
+    border-bottom: 1px solid gray;
+}
+.cont p:last-of-type{
+    border-bottom: none;
+}
+.footer {
+    margin-top: 20px;
+}
+.footer p{
+    font-size: 2.5rem;
+}
+button {
+    margin: 5px 0;
+    width: 80%;
+    height: 35px;
+    border: none;
+    background-color: yellow;
+    border-radius: 4px;
+}
+button:active{
+    opacity: 0.8;
+}
