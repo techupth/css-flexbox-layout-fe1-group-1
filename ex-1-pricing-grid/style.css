@@ -1,1 +1,49 @@
 /* Start coding here */
+section{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #f13ce5, #0084ff);
+    gap: 1px;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+.content{
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-basis: 20%;
+    padding: 10px;
+    height: fit-content;
+    
+}
+
+.list{
+    border-bottom: solid rgb(154, 154, 154) 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.price{
+    font-size: 3rem;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: yellow;
+    padding: 10px;
+    border-radius:5px ;
+    font-weight: bold;
+    border: inherit;
+    width: 100%;
+    font-size: 1.5rem;
+}

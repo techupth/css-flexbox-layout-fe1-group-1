@@ -1,1 +1,39 @@
 /* Start coding here */
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(55, 92, 93);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 0px;
+    height: 25vh;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    border: solid white 1px;
+    font-weight: bolder;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+#main p{
+    flex: 1;
+    border: solid white 1px;
+    margin: 0px;
+    text-align:center;
+}
+
+.footer{
+    background-color: rgb(228, 231, 93);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 0px;
+    height: 25vh;
+}
