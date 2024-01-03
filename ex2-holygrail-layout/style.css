@@ -11,6 +11,9 @@ body{
     font-size: 2rem;
     margin: 0px;
     height: 25vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 #main{
     display: flex;
@@ -20,13 +23,19 @@ body{
     font-weight: bolder;
     justify-content: space-around;
     height: 50vh;
+    align-items: center;
 }
 
 #main p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
     border: solid white 1px;
     margin: 0px;
-    text-align:center;
+    text-align: center;
+    height: 100%;
+    
 }
 
 .footer{
@@ -36,4 +45,7 @@ body{
     font-size: 2rem;
     margin: 0px;
     height: 25vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
